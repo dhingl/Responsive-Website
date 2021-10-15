@@ -1,0 +1,26 @@
+
+.contact-content{
+    /* height: 395px; */
+    height: 100vh;
+    /* background-color: rgb(239, 239, 243);  */
+    /* display: block; */
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+    }
+    .contact-content::after{
+        
+        content: "";
+        background-image: url(../img22/bek2.jpeg);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: inherit;
+        opacity: 0.15;
+        border-radius: 12px;
+        z-index: -1;
+    }
+    .contact-form{
+      
+    }
